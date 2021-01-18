@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  color: #282c34;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+}
+
+.wp-icons-list {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 50px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  input {
+    flex-grow: 1;
+    height: 65px;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0;
+    padding: 0 30px;
+    border-radius: 0;
+    border:1px solid #ccc;
+  }
+}
+
+.icons-list {
+  padding: 10px 0 50px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  width: 100%;
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-weight: 200;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all .3s ease;
+    cursor: pointer;
+    border: 0;
+    background-color: #fff;
+    outline: none;
+    overflow: hidden;
+    &:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      color: #0b78fb;
+      svg {
+        top: 0;
+      }
+      span {
+        opacity: 1;
+      }
+    }
+
+    svg {
+      max-height: 45px;
+      max-width: 45px;
+      margin-bottom: 20px;
+      transition: all .3s ease;
+      fill: currentColor;
+      position: relative;
+      top: 20px;
+    }
+
+    .name {
+      margin-top: 10px;
+      font-size: 16px;
+      opacity: 0;
+      transition: .3s ease
+    }
+  }
+}
+
+.copied {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2000;
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(120, 186, 121, 0.9);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  transition: .1s ease;
+  &.visible {
+    opacity: 1;
+  }
+  svg, span {
+    margin: 0 !important;
+  }
+
+  span {
+    font-weight: 500;
+    font-size: 21px;
+  }
+}
