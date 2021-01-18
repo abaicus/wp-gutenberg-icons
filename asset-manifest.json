@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wp-gutenberg-icons/static/css/main.0b4c7869.chunk.css",
+    "main.js": "/wp-gutenberg-icons/static/js/main.057d7d8d.chunk.js",
+    "main.js.map": "/wp-gutenberg-icons/static/js/main.057d7d8d.chunk.js.map",
+    "runtime-main.js": "/wp-gutenberg-icons/static/js/runtime-main.1512e75d.js",
+    "runtime-main.js.map": "/wp-gutenberg-icons/static/js/runtime-main.1512e75d.js.map",
+    "static/js/2.b34995e3.chunk.js": "/wp-gutenberg-icons/static/js/2.b34995e3.chunk.js",
+    "static/js/2.b34995e3.chunk.js.map": "/wp-gutenberg-icons/static/js/2.b34995e3.chunk.js.map",
+    "index.html": "/wp-gutenberg-icons/index.html",
+    "static/css/main.0b4c7869.chunk.css.map": "/wp-gutenberg-icons/static/css/main.0b4c7869.chunk.css.map",
+    "static/js/2.b34995e3.chunk.js.LICENSE.txt": "/wp-gutenberg-icons/static/js/2.b34995e3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1512e75d.js",
+    "static/js/2.b34995e3.chunk.js",
+    "static/css/main.0b4c7869.chunk.css",
+    "static/js/main.057d7d8d.chunk.js"
+  ]
+}
